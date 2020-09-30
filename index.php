@@ -1,9 +1,9 @@
 <?php
 /*
 Author	: Irfan Maulana
-Website ini dibuat hanya untuk keisengan & belajar saja
-tidak untuk dijual belikan, karena code ini bersifat gratis
-siapapun boleh memilikinya secara gratis untuk keperluan belajar
+Website ini sengaja dibuat hanya untuk keisengan & belajar saja
+dan tidak untuk diperjual belikan, karena code ini bersifat gratis
+siapapun boleh memilikinya secara gratis yang pastinya untuk keperluan belajar
 */
 ?>
 <!DOCTYPE html>
@@ -37,10 +37,10 @@ siapapun boleh memilikinya secara gratis untuk keperluan belajar
                                  
                                  <label>Pilihan </label>
 								 <select id="operator" required name="operator">
-								     <option>Masukkan Nomor</option>
+								     <option>Silahkan Masukkan Nomor</option>
 								 </select>
 								 <br>
-                                 <label>Pembayaran </label>
+                                 <label>Pilih Metode Pembayaran </label>
                                  <select id="pembayaran" required name="pembayaran">
                                      <option value="BNIVA">BNI Virtual Account</option>
                                      <option value="MYBVA">Maybank Virtual Account</option>
@@ -95,9 +95,9 @@ siapapun boleh memilikinya secara gratis untuk keperluan belajar
                         <tr>
                            <th>Id</th>
                            <th>Produk</th>
-                           <th>Nomer</th>
+                           <th>Nomor</th>
                            <th>Status</th>
-                           <th>Keterangan</th>
+                           <th>Deskripsi</th>
                            <th>Tanggal</th>
                         </tr>
                         <?php
